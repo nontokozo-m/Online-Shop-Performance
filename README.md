@@ -123,12 +123,10 @@ Continue monitoring cancelled, returned, and unsuccessful transactions by paymen
 | **Pandas**                | Data cleaning, transformation and aggregation  |
 | **Plotly Express**        | Interactive data visualisations                |
 | **Databricks**            | Cloud-based analytics and notebook environment |
-| **Jupyter Notebook**      | Analysis workflow and documentation            |
-| **HTML/CSS & WeasyPrint** | Report and dashboard generation                |
 
 ---
 
-## 📌 Project Outcome
+##  Project Outcome
 
 The project demonstrates an end-to-end approach to **data cleaning, analysis, visualisation, and business interpretation**. The final outputs translate transactional data into practical insights that can support decisions around **revenue optimisation, customer retention, product strategy, promotional effectiveness, and operational performance**.
 
