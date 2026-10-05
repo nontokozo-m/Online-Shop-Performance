@@ -37,8 +37,7 @@ Several data-quality issues were addressed before analysis:
 * **Duplicates:** 120 duplicate order records were identified and removed to prevent distortion of revenue and transaction metrics.
 * **Anomalies:** Negative quantity records were reviewed and excluded where they represented returns or erroneous transactions.
 * **Referential Integrity:** Orphaned `CustomerID` records that could not be matched to the customer table were identified and addressed.
-* **Text Standardisation:** Inconsistent city names and formatting were standardised using string-cleaning methods such as `.str.strip().str.title()`.
-
+* **Text Standardisation:** Inconsistent city names and formatting were standardised u
 ### Step 3: Relational Data Integration
 
 The datasets were merged sequentially to create analysis-ready tables while maintaining relational integrity:
