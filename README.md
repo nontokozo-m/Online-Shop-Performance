@@ -1,4 +1,4 @@
-## E-Commerce Shop Performance Case Study
+## Shop Performance Case Study
 
 An end-to-end data analysis project examining **e-commerce sales performance, customer behaviour, promotional effectiveness, product performance, and transaction outcomes** using Python, Pandas, Plotly Express, and Databricks.
 
