@@ -65,7 +65,7 @@ Additional analytical variables were created to support the business questions:
 
 ---
 
-## 📊 Key Insights
+## Key Insights
 
 ### 1. Product & Category Performance
 
