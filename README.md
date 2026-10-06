@@ -4,7 +4,7 @@ An end-to-end data analysis project examining **sales performance, customer beha
 
 ## Project Overview
 
-This project presents a complete data-analysis workflow applied to transactional retail data. The analysis covers **data profiling, data cleaning, anomaly detection, relational data integration, feature engineering, business metric development, and exploratory data visualisation**.
+This project presents a complete data-analysis workflow applied to transactional retail data. The analysis covers **data cleaning, anomaly detection, and exploratory data visualisation**.
 
 The objective is to transform raw transactional data into actionable insights that can support decisions around **revenue growth, customer retention, product performance, promotions, and operational efficiency**.
 
@@ -27,7 +27,6 @@ The datasets were profiled to identify:
 * Duplicate records
 * Inconsistent categorical values
 * Potential anomalies in numerical fields
-* Referential integrity issues
 
 ### Step 2: Data Cleaning & Quality Improvements
 
@@ -35,9 +34,8 @@ Several data-quality issues were addressed before analysis:
 
 * **Missing Values:** Missing numerical values were handled using appropriate imputation methods, while unrecorded payment methods were classified as `Unknown`.
 * **Duplicates:** 120 duplicate order records were identified and removed to prevent distortion of revenue and transaction metrics.
-* **Anomalies:** Negative quantity records were reviewed and excluded where they represented returns or erroneous transactions.
 * **Referential Integrity:** Orphaned `CustomerID` records that could not be matched to the customer table were identified and addressed.
-* **Text Standardisation:** Inconsistent city names and formatting were standardised u
+* **Text Standardisation:** Inconsistent city names and formatting were standardised
 ### Step 3: Relational Data Integration
 
 The datasets were merged sequentially to create analysis-ready tables while maintaining relational integrity:
@@ -124,9 +122,4 @@ Continue monitoring cancelled, returned, and unsuccessful transactions by paymen
 | **Plotly Express**        | Interactive data visualisations                |
 | **Databricks**            | Cloud-based analytics and notebook environment |
 
----
-
-##  Project Outcome
-
-The project demonstrates an end-to-end approach to **data cleaning, analysis, visualisation, and business interpretation**. The final outputs translate transactional data into practical insights that can support decisions around **revenue optimisation, customer retention, product strategy, promotional effectiveness, and operational performance**.
 
